@@ -9,7 +9,7 @@ const PORT = 8080;
 const HOST = '0.0.0.0';
 
 // telegraf
-const bot = new Telegraf("1990206478:AAEGm4ZhQFMakHOn6iqHWVrebPekFCR6Vvs")
+const bot = new Telegraf(process.env.Bot_Token)
 
 bot.on('text', (ctx) => {
 
